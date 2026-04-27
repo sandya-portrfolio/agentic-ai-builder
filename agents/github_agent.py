@@ -5,5 +5,6 @@ def push_to_github(project_name):
     repo.git.add(all=True)
     repo.index.commit("Initial commit")
 
+    # Replace YOUR_USERNAME/YOUR_REPO
     repo.create_remote("origin", "https://github.com/YOUR_USERNAME/YOUR_REPO.git")
     repo.git.push("--set-upstream", "origin", "main")
