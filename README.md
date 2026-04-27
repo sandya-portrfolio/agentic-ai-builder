@@ -31,3 +31,6 @@ agentic-ai-builder/
 ├── .env
 
 3️⃣ Example: Simple Agentic Builder
+
+pip install -r requirements.txt
+python main.py
